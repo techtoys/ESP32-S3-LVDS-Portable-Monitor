@@ -57,7 +57,7 @@ The LCD panels of laptops usually have a resolution of 1366*768 or higher with a
 
 <img src = "./Assets/Embedded_graphic.png">
 
-At time of writing I do have a successful prototype for this part:
+At time of writing I do have a successful prototype for this part (schematics [link](./Hardware/ESP32S3-Zero-RGB/)):
 
 <img src = "./Assets/ESP32-S3-embedded-LVDS.png" width = 70%>
 
