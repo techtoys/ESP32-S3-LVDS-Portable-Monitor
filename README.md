@@ -71,6 +71,16 @@ At time of writing I do have a successful prototype for this part:
 
   I have chosen LT8619C for its smaller size and simpler PCB layout. Personally I love its package more than RTD2660. TC358870XBG + SN65DSI83 is too complex for this project.
 
+  With an evaluation kit of LT8619C there show some nice results with two LVDS panels in my inventory:
+
+  * 12.1" 1280x800 8-bit LVDS panel
+
+    <img src = "./Assets/LT8619C_1280x800.png" width = 70%>
+
+  * 6.86" 480x1280 8-bit LVDS panel
+
+    <img src = "./Assets/LT8619C_480x1280.png" width=60%>
+
 * LVDS mux chip: [TS3DV520](https://www.ti.com/product/TS3DV520?&bm-verify=AAQAAAAJ_____-_r5zycZ2vn-XAgK8JWMCZzs0WqBU5CVndKTQ6ouMX_fO82oEeE3_8zNvA2PzaikN7bcPdjokNGKlUB-Y6XLx45G3qVJmq62-kDJb3ZdUX4PH0VUUDiCJVvlJ3fsyPYzB7T8pM0HMZliiivl0L7y_ksAcIj2sGahsQzNhVXCBZQfKC-jqMV1FMhQHUZNxhXbTU_RANNTELGUH-047xUhr5Bh9mgi9kAllcIBfFDPz9D586yvo1J_xfosBIKFFQa8BUIXrhbyRxyZ2c-nfsJqMu1C0q14WsniZDWJMImhw-c1A9Fl64BsTtxYQ5ZtOTmeTI) 5-Channel differential multiplexer switch for DVI/HDMI applications. This chip is compatible with LVDS switching as long as the bandwidth and voltage levels are within the operating conditions.
 
 * TFT Panel: AUO 11.6" HD 16:9 Color TFT-LCD [B116XW03 V0](https://semiconductors.es/datasheet/B116XW03-V0.html). It is by no means the only panel to support. There are 1280*800 10.1" 8-bit IPS panels too. 
