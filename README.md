@@ -41,7 +41,7 @@
 
 From time to time there are scrap laptops and tablets that you may have few units in the garage or store room with heavy dust on them. They are fully operational although a bit slow or just incompatible with the latest software. One of the most useful spare parts is the display panel that is still alive.
 
-**This repository is to show you how to revitalize a scrap chromebook's 11.6" LVDS 18-bit display panel to a HMI panel of ESP32-S3 plus the bonus feature of being a portable monitor for the PCs.**
+**This repository shows you how to revitalize a scrap chromebook's 11.6" LVDS 18-bit display panel to a HMI panel of ESP32-S3 plus the bonus feature of being a portable monitor for the PCs.**
 
 This is the idea of The ESP32-S3 LVDS Portable Monitor:
 
@@ -51,13 +51,13 @@ This is the idea of The ESP32-S3 LVDS Portable Monitor:
 
 ## Choice of components <a name="components"></a>
 
-The LCD panels of laptops usually have a resolution of 1366*768 or higher with an interface called [LVDS](https://en.wikipedia.org/wiki/Low-voltage_differential_signaling). Such resolution requires more memory as the display buffer and a much faster pixel clock to drive so I need an external graphic controller ([RA8889](https://www.raio.com.tw/en/RA8889.html)) to generate the pixel clock and horizontal sync.
+LCD panels of laptops usually have a resolution of 1366*768 or higher with an interface called [LVDS](https://en.wikipedia.org/wiki/Low-voltage_differential_signaling). Such resolution requires more memory as the display buffer and a much faster pixel clock to drive so I need an external graphic controller ([RA8889](https://www.raio.com.tw/en/RA8889.html)) to generate the pixel clock and horizontal sync.
 
 * Embedded graphic: ESP32-S3 + RA8889 + THC63LVDM83D with major components illustrated below.
 
 <img src = "./Assets/Embedded_graphic.png">
 
-At time of writing I do have a successful prototype for this part (schematics [link](./Hardware/ESP32S3-Zero-RGB/)):
+At time of writing I have finished a prototype for this part (schematics [link](./Hardware/ESP32S3-Zero-RGB/)). It is fully working although there are few patches required.
 
 <img src = "./Assets/ESP32-S3-embedded-LVDS.png" width = 70%>
 
