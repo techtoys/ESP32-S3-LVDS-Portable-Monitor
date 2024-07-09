@@ -6,4 +6,5 @@
 * To set SPI interface, XPS[2:0] of RA8889 set 101 by strip wires
 * XTEST[2:1] in 00 in normal mode. A jumper "glued" to XTEST[2:1] to 01 to force SPI master I/F pin floating. Need to do this when new graphic media is downloaded to Serial Flash by an external programmer
 * LED backlight circuit with AP3031KTR needs revision. L50 (4.7uH) and D50 (SD103AWS) need higher ratings
+* J50's Pin38,39 removed from RA8889's XKIN0_SCL and XKOUT0_SDA. Re-route to GPIO36(SCL) and GPIO35(SDA) of ESP32-S3
 
