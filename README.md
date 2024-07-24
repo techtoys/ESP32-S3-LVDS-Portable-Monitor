@@ -17,7 +17,7 @@
   
     Switching between ESP32-S3 embedded graphic and HDMI by a single button
   
-* To be portable, that means a battery is required (the choice is HAC-003 replacement battery of [Nintendo Switch](https://en.wikipedia.org/wiki/Nintendo_Switch) due to its popularity and availability from [Amazon](https://www.amazon.com/Cameron-Sino-HAC-S-JP-EU-C0-BPHAT-C0/dp/B0B4574KHD/ref=sr_1_5?crid=152TWKXCC6L3G&dib=eyJ2IjoiMSJ9.KBA1LU6HkghYuO2zMG21Q9CHqIrSEcYTAryfSDKZdn6mVPcxXS_pnDzZ76IZLQXYnp5hFnudum2btR_tmeDr_Xtb5vvrHsSfHrGwAGn_e9podNuFDnYdxx8FllqWyds2fqDkz2E-vnwKm6l3WPhgfoHOwdCUufmo8QeR2B4i7X8pmsEYCJ2e_Ca3DsxCoO8ecOrDwVTbji32tF2Em8105mFnGBmegCnK-81NkYsewUA.ulGU-Y8dpL7ZON2fERcadvCQcjLxdKJXndFxqBZRM2k&dib_tag=se&keywords=HAC-003&qid=1720497336&sprefix=hac-00%2Caps%2C418&sr=8-5))
+* To be portable, that means a battery is required (a candidate is HAC-003 replacement battery of [Nintendo Switch](https://en.wikipedia.org/wiki/Nintendo_Switch) due to its popularity and availability from [Amazon](https://www.amazon.com/Cameron-Sino-HAC-S-JP-EU-C0-BPHAT-C0/dp/B0B4574KHD/ref=sr_1_5?crid=152TWKXCC6L3G&dib=eyJ2IjoiMSJ9.KBA1LU6HkghYuO2zMG21Q9CHqIrSEcYTAryfSDKZdn6mVPcxXS_pnDzZ76IZLQXYnp5hFnudum2btR_tmeDr_Xtb5vvrHsSfHrGwAGn_e9podNuFDnYdxx8FllqWyds2fqDkz2E-vnwKm6l3WPhgfoHOwdCUufmo8QeR2B4i7X8pmsEYCJ2e_Ca3DsxCoO8ecOrDwVTbji32tF2Em8105mFnGBmegCnK-81NkYsewUA.ulGU-Y8dpL7ZON2fERcadvCQcjLxdKJXndFxqBZRM2k&dib_tag=se&keywords=HAC-003&qid=1720497336&sprefix=hac-00%2Caps%2C418&sr=8-5))
 
   <img src = "./Assets/HAC-003.png" width=50%>
 
